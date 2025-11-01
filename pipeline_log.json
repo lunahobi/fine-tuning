@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-01 05:12:42",
+  "results": {
+    "data_preprocessing": {
+      "success": true,
+      "output": "See logs\\Подготовкаиразделениеданных_1761954249.log",
+      "duration": 1274.299864598683
+    },
+    "resnet18_training": {
+      "success": true,
+      "output": "See logs\\ОбучениеResNet18_1761954250.log",
+      "duration": 1274.299864598683
+    },
+    "efficientnet_training": {
+      "success": true,
+      "output": "See logs\\ОбучениеEfficientNet-B0_1761955656.log",
+      "duration": 1274.299864598683
+    },
+    "model_comparison": {
+      "success": false,
+      "output": "Timeout. See logs\\Сравнениеивыборлучшеймодели_1761957190.log",
+      "duration": 1274.299864598683
+    },
+    "resnet18_export": {
+      "success": true,
+      "output": "See logs\\ЭкспортResNet18вONNX_1761963136.log",
+      "duration": 1274.299864598683
+    },
+    "efficientnet_export": {
+      "success": true,
+      "output": "See logs\\ЭкспортEfficientNet-B0вONNX_1761963146.log",
+      "duration": 1274.299864598683
+    },
+    "web_app": {
+      "success": true,
+      "type": "gradio",
+      "url": "http://localhost:8080",
+      "duration": 1274.299864598683
+    }
+  },
+  "total_time": 8920.09905219078,
+  "success": false
+}

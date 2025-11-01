@@ -1,0 +1,43 @@
+{
+  "test_accuracy": 0.9661016949152542,
+  "best_val_accuracy": 96.22641509433963,
+  "confusion_matrix": [
+    [
+      16,
+      2,
+      0
+    ],
+    [
+      0,
+      21,
+      0
+    ],
+    [
+      0,
+      0,
+      20
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n       apple       1.00      0.89      0.94        18\n        kiwi       0.91      1.00      0.95        21\n    mandarin       1.00      1.00      1.00        20\n\n    accuracy                           0.97        59\n   macro avg       0.97      0.96      0.97        59\nweighted avg       0.97      0.97      0.97        59\n",
+  "config": {
+    "model_name": "efficientnet_b0",
+    "num_epochs": 20,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "device": "cpu",
+    "classes": [
+      "apple",
+      "kiwi",
+      "mandarin"
+    ],
+    "batch_size": 32,
+    "experiment_name": "efficientnet_b0_experiment",
+    "random_seed": 42
+  },
+  "training_time_minutes": 25.070264379183453,
+  "model_info": {
+    "total_parameters": 4011391,
+    "trainable_parameters": 4011391,
+    "model_size_mb": 15.302242279052734
+  }
+}

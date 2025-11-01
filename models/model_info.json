@@ -1,0 +1,16 @@
+{
+  "model_name": "resnet18",
+  "num_classes": 3,
+  "classes": [
+    "apple",
+    "kiwi",
+    "mandarin"
+  ],
+  "input_size": [
+    224,
+    224
+  ],
+  "onnx_path": "models/best_model.onnx",
+  "pytorch_file": "experiments/resnet18_resnet18_experiment_20251101_024416/best_model.pth",
+  "val_accuracy": 98.11320754716981
+}
