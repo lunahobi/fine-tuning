@@ -132,9 +132,14 @@ dmypy.json
 logs/
 models/*.pth
 models/*.onnx
+models/*.onnx.data
 experiments/*/tensorboard/
 experiments/*/checkpoint_*.pth
-*.png
+experiments/*/best_model.pth
+# Разрешаем PNG только для графиков
+!experiments/**/*.png
+!model_comparison.png
+# Изображения данных игнорируем
 *.jpg
 *.jpeg
 *.gif
